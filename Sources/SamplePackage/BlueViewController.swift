@@ -11,6 +11,14 @@ import UIKit
 
 public class BlueViewController:UIViewController{
   
+  required init() {
+    super.init(nibName: "BlueViewController", bundle: Bundle.module);
+
+  }
+  required init?(coder: NSCoder) {
+    super.init(coder: coder)
+  }
+  
   
 }
 #endif
