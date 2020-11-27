@@ -8,7 +8,7 @@
 import Foundation
 #if canImport(UIKit)
 import UIKit
-class GreenViewController:UIViewController{
+public class GreenViewController:UIViewController{
   
   public class func loadController()->GreenViewController?{
     let sb = UIStoryboard(name:"GreenViewController", bundle:Bundle.module)
